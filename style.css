@@ -1,10 +1,46 @@
 #app {
+  display: grid;
   width: 826px;
   height: 936px;
+  grid-template-columns: 30% 30% 10% 30%;
+  grid-template-rows: 15% 20% 50% 15%;
 }
 
 .box {
   width: 100%;
   height: 100%;
 }
+
+#fish-flag {
+  grid-column: 1/span 3;
+  grid-row: 1/span 1;
+}
+
+#map {
+  grid-column: 1/span 3;
+  grid-row: 2/span 1;
+}
+
+#vase-short {
+  grid-column: 4/span 1;
+  grid-row: 1/span 2;
+}
+
+#vase-tall {
+  grid-column: 1/span 1;
+  grid-row: 3/span 2;
+}
+
+#bamboo {
+  grid-column: 2/span 3;
+  grid-row: 3/span 1;
+}
+
+#quadropus {
+  grid-column: 2/span 3;
+  grid-row: 4/span 1;
+}
+
+
+
 
